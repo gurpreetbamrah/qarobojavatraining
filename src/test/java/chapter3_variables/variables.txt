@@ -1,0 +1,5 @@
+There are three types of variables in java:
+
+local variable
+instance variable
+static variable

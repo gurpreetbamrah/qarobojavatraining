@@ -1,0 +1,34 @@
+The Collection in Java is a framework that provides an
+architecture to store and manipulate the group of objects.
+
+Java List Interface
+List Interface is the subinterface of Collection.
+It contains index-based methods to insert and delete elements.
+It is a factory of ListIterator interface.
+
+
+ListIterator Interface is used to traverse the element in a
+ backward and forward direction.
+
+Java ArrayList class uses a dynamic array for storing the elements.
+It inherits AbstractList class and implements List interface.
+
+
+Java LinkedList class uses a doubly linked list to store the
+elements. It provides a linked-list data structure.
+
+https://www.javatpoint.com/java-linkedlist
+
+Java HashSet class is used to create a collection
+that uses a hash table for storage. It inherits the
+ AbstractSet class and implements Set interface.
+
+A map contains values on the basis of key, i.e. key
+and value pair. Each key and value pair is known
+as an entry. A Map contains unique keys.
+
+A map contains values on the basis of key, i.e. key and
+value pair. Each key and value pair is known as an
+ entry. A Map contains unique keys.
+
+ https://www.javatpoint.com/working-of-hashmap-in-java

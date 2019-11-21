@@ -1,0 +1,39 @@
+Abstraction: Hiding the internal implementation of the
+ feature and only showing the functionality to the users
+. i.e. what it works (showing), how it works (hiding)
+. Both abstract class and interface are used
+for abstraction.
+
+
+A class that is declared using “abstract” keyword
+is known as abstract class. It can have abstract
+methods(methods without body) as well as concrete
+methods (regular methods with body).
+A normal class(non-abstract class) cannot have
+abstract methods.
+
+
+Why we need an abstract class?
+Lets say we have a class Animal that has a method sound()
+and the subclasses(see inheritance) of it like Dog, Lion,
+ Horse, Cat etc. Since the animal sound differs from one
+ animal to another, there is no point to implement this
+ method in parent class. This is because every child class
+  must override this method to give its own implementation
+   details, like Lion class will say “Roar” in this method
+   and Dog class will say “Woof”.
+
+So when we know that all the animal child classes will
+ and should override this method, then there is no point
+ to implement this method in parent class. Thus, making
+  this method abstract would be the good choice as by
+  making this method abstract we force all the sub classes
+   to implement this method( otherwise you will get
+    compilation error), also we need not to give any
+    implementation to this method in parent class.
+
+Abstract class vs Concrete class
+A class which is not abstract is referred as Concrete class.
+In the above example that we have seen in the beginning of
+this guide, Animal is a abstract class and Cat, Dog & Lion
+ are concrete classes.

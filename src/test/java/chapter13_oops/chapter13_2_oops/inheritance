@@ -1,0 +1,19 @@
+Inheritance in Java is a mechanism in which one object
+acquires all the properties and behaviors of another class.
+
+Why use inheritance in java
+For Method Overriding (so runtime polymorphism can be achieved).
+For Code Reusability.
+
+
+Terms used in Inheritance
+
+Class: A class is a group of objects which have common properties.
+It is a template or blueprint from which objects are created.
+
+Sub Class/Child Class: Subclass is a class which inherits the other class.
+ It is also called a derived class, extended class, or child class.
+
+Super Class/Parent Class: Superclass is the class
+from where a subclass inherits the features. It is also called
+a base class or a parent class.
